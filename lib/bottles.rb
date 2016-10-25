@@ -4,8 +4,9 @@ class Bottles
   attr_reader :number_of_bottles
 
   def sing_the_song(bottles)
+    # binding.pry
     @number_of_bottles = bottles
-    until  number_of_bottles == 1
+    while  number_of_bottles != 1
       if number_of_bottles > 2
         puts line
         count_bottles_left
@@ -13,8 +14,8 @@ class Bottles
         puts second_to_last_line
         count_bottles_left
       end
-    puts last_line_of_the_song
     end
+    puts last_line_of_the_song
   end
 
   def line
@@ -38,4 +39,4 @@ Go to the store and buy some more, 99 bottles of beer on the wall."
 end
 
 bottles = Bottles.new
-bottles.sing_the_song(3)
+bottles.sing_the_song(99)
