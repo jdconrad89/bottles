@@ -14,14 +14,14 @@ class BottlesTest < Minitest::Test
     b= Bottles.new
 
     b.sing_the_song(99)
-    b.sing_the_song(7)
+    b.sing_the_song(1000)
 
     assert Fixnum, b.number_of_bottles.class
   end
 
   def test_it_keeps_track_of_the_count_through_a_song
     b = Bottles.new
-    b.sing_the_song(99)
+    b.sing_the_song(1000)
 
     assert_equal 0, b.count_bottles_left
   end
@@ -48,7 +48,7 @@ Go to the store and buy some more, 99 bottles of beer on the wall."
     b = Bottles.new
 
     assert String,  b.sing_the_song(4).class
-    assert String,  b.sing_the_song(99).class
+    assert String,  b.sing_the_song(1000).class
   end
 
 

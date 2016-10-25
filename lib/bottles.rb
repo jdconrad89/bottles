@@ -9,11 +9,10 @@ class Bottles
     while  number_of_bottles != 1
       if number_of_bottles > 2
         puts line
-        count_bottles_left
       else
         puts second_to_last_line
-        count_bottles_left
       end
+      count_bottles_left
     end
     puts last_line_of_the_song
   end
