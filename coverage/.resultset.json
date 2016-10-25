@@ -1,0 +1,50 @@
+{
+  "Unit Tests": {
+    "coverage": {
+      "/Users/jdconrad/Documents/turing/1module/projects/bottles/lib/bottles.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        2,
+        2,
+        8,
+        6,
+        6,
+        null,
+        2,
+        2,
+        null,
+        8,
+        null,
+        null,
+        null,
+        1,
+        6,
+        null,
+        null,
+        1,
+        9,
+        null,
+        null,
+        1,
+        3,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        9,
+        null,
+        null,
+        null,
+        1,
+        1
+      ]
+    },
+    "timestamp": 1477403694
+  }
+}
